@@ -1,0 +1,12 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#e8e8e8" stroke="#ccc" stroke-width="2"/>
+  <text x="300" y="200" font-family="Arial, sans-serif" font-size="24" fill="#909090" text-anchor="middle" dominant-baseline="middle">Map Placeholder</text>
+  <!-- Simple map-like elements -->
+  <path d="M100,100 L150,80 L200,120 L220,180 L180,220 L120,200 Z" fill="#d0d0d0" stroke="#b0b0b0" stroke-width="1"/>
+  <path d="M300,150 L350,130 L400,170 L420,230 L380,270 L320,250 Z" fill="#d0d0d0" stroke="#b0b0b0" stroke-width="1"/>
+  <path d="M430,100 C450,80 480,80 500,100 C520,120 520,150 500,170 C480,190 450,190 430,170 C410,150 410,120 430,100 Z" fill="#d0d0d0" stroke="#b0b0b0" stroke-width="1"/>
+  <line x1="150" y1="300" x2="450" y2="300" stroke="#b0b0b0" stroke-width="3" stroke-dasharray="5,5"/>
+  <circle cx="200" cy="250" r="10" fill="#a0a0a0"/>
+  <circle cx="350" cy="220" r="8" fill="#a0a0a0"/>
+  <circle cx="400" cy="320" r="12" fill="#a0a0a0"/>
+</svg> 

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map Placeholder Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .map-container {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    .controls {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+    }
+    button {
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Interactive Map Demo</h1>
+  
+  <div class="map-container">
+    <img src="placeholder-map.svg" alt="Map Placeholder" width="600" height="400">
+  </div>
+  
+  <div class="controls">
+    <button onclick="alert('Zoom in feature would go here!')">Zoom In</button>
+    <button onclick="alert('Zoom out feature would go here!')">Zoom Out</button>
+    <button onclick="alert('Reset view feature would go here!')">Reset View</button>
+  </div>
+  
+  <p>This is a demonstration of a map placeholder using an SVG image.</p>
+</body>
+</html> 
